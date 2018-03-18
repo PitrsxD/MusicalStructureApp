@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Class which is creating new adapter, which is attached to the RecyclerView of music category
      * Was necessary to implement directly in MainActivity because of OnClickListener
+     * Inspired by blog of Willow Tree Apps company - https://willowtreeapps.com/ideas/android-fundamentals-working-with-the-recyclerview-adapter-and-viewholder-pattern/
      */
     class SongPreviewAdapter extends RecyclerView.Adapter <RecyclerView.ViewHolder> {
 
@@ -171,6 +172,7 @@ public class MainActivity extends AppCompatActivity {
                 super(itemView);
 
                 albumImage = itemView.findViewById(R.id.album_image);
+                //https://www.freepik.com/free-photos-vectors/music - Music vector created by Freepik
 
                 artistName = itemView.findViewById(R.id.artist_name);
 
