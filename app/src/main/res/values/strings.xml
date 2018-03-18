@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="search_music">Search for music</string>
+    <string name="trendingMusic">Trending now</string>
+    <string name="description">Description</string>
+    <string name="rockMusic">Rock</string>
+    <string name="popMusic">Pop</string>
+    <string name="electronicalMusic">Electronical</string>
+    <string name="albums">Select your favorite song to play</string>
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageButton
+            android:id="@+id/main_activity"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingBottom="6dp"
+            android:layout_margin="0dp"
+            style="@style/CustomButton"
+            android:src="@mipmap/main"/>
+
+        <ImageButton
+            android:id="@+id/play_activity"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingBottom="6dp"
+            style="@style/CustomButton"
+            android:src="@mipmap/play"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/album_image_playing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="250dp"
+        android:layout_marginBottom="16dp"
+        android:src="@mipmap/blank_image"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/artist_name_playing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Artist name"
+        android:layout_marginStart="16dp"
+        android:gravity="bottom"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/song_name_playing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:textSize="20sp"
+        tools:text="Song name"
+        android:gravity="bottom"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/next_b"/>
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/next_a"/>
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/play_b"/>
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/stop"/>
+
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:max="100"
+        android:progress="20" />
+
+</LinearLayout>
