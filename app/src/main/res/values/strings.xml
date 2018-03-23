@@ -2,9 +2,25 @@
     <string name="app_name">Musical Structure App</string>
     <string name="search_music">Search for music</string>
     <string name="trendingMusic">Trending now</string>
-    <string name="description">Description</string>
+    <string name="description">Album image</string>
     <string name="rockMusic">Rock</string>
     <string name="popMusic">Pop</string>
     <string name="electronicalMusic">Electronical</string>
     <string name="albums">Select your favorite song to play</string>
+    <string name="artist1">Name name</string>
+    <string name="song1">Song name</string>
+    <string name="artist2">Name name2</string>
+    <string name="song2">Song name</string>
+    <string name="artist3">Name name3</string>
+    <string name="song3">Song name</string>
+    <string name="artist4">Name name4</string>
+    <string name="song4">Song name</string>
+    <string name="button_for_list_of_songs">Button for list of songs</string>
+    <string name="button_to_control_playing_of_song">Button to control playing of song</string>
+    <string name="next_song">Next song</string>
+    <string name="previus_song">Previus song</string>
+    <string name="play_button">Play button</string>
+    <string name="stop_button">Stop button</string>
+    <string name="song_album">Album of Songs</string>
+    <string name="playing_activity">Playing Now</string>
 </resources>

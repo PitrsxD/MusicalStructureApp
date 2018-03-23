@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_icon_top">10dp</dimen>
+    <dimen name="menu_icon_bottom">6dp</dimen>
+    <dimen name="margin_padding_top_bottom">8dp</dimen>
+    <dimen name="margin_padding_start_end">16dp</dimen>
+    <dimen name="author">18sp</dimen>
+    <dimen name="song">16sp</dimen>
+    <dimen name="cathegory">20sp</dimen>
+</resources>
